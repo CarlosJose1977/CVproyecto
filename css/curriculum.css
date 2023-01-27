@@ -96,3 +96,29 @@ article h3, article h4 {
 .experiencia h2 {
     border-bottom: 2px solid #364A6D;
 }
+
+/*-----------------Iconos-----------------*/
+.ws::before {
+    content: "\f232";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.me::before {
+    content: "\f39f";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.em::before {
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.fk::before {
+    content: "\f09a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.Contacto::before {
+    padding-right: 15px;
+}
+
