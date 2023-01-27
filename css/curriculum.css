@@ -1,0 +1,8 @@
+
+
+ul {
+    list-style-type: none;
+}
+article ul {
+    list-style-type: circle;
+}
