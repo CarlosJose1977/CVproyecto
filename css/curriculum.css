@@ -2,7 +2,7 @@
 /*-----------------Extructura--------------*/
 .div-contenedores {
     display: flex;
-    width: 1200px;
+    width: 1300px;
 }
 
 /*-----------------Generales--------------*/
@@ -26,6 +26,20 @@ aside h2{
     text-transform: uppercase;
     letter-spacing: 5px;
     border-bottom: 2px solid white;
+}
+dt:last-of-type,
+dd:last-of-type {
+    border-bottom: 1px solid white;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+dt, dd {
+    line-height: 1.5em;
+    border-top: 1px solid white;
+    flex-basis: 45%;
+    margin: 0;
 }
 #Imagen-destacada img {
     border-radius: 50%;
