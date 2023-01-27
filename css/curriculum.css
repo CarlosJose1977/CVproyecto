@@ -12,6 +12,9 @@ ul {
 article ul {
     list-style-type: circle;
 }
+h1, h2 {
+    text-transform: uppercase;
+}
 
 /*-----------------Aside-----------------*/
 aside {
@@ -23,17 +26,24 @@ aside *{
     color: white;
 }
 aside h2{
-    text-transform: uppercase;
     letter-spacing: 5px;
     border-bottom: 2px solid white;
+}
+.perfil p {
+    line-height: 2em;
+    padding: 8px;
+    text-align: justify;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
 }
 dt:last-of-type,
 dd:last-of-type {
     border-bottom: 1px solid white;
 }
-dl {
-    display: flex;
-    flex-wrap: wrap;
+dt {
+    font-weight: bolder;
 }
 dt, dd {
     line-height: 1.5em;
@@ -57,19 +67,32 @@ main section h2{
 .hero {
     background-color: #7FB3D5;
     box-shadow: 5px 5px 5px 5px #AAB7B8 insert;
+    padding: 10% 0;
+    text-align: center;
+}
+.hero h1 {
+    letter-spacing: 15px;
 }
 .hero h2 {
     color: white;
     border-top: 2px solid white;
     text-transform: none;
-    letter-spacing: normal;
+    letter-spacing: 15px;
 }
 .about-me {
     background-color: #AAB7B8;
+    padding: 0 0 10px 0;
 }
 .about-me h2 {
     background-color: #E5E8E8;
+    border-bottom: 2px solid #364A6D;
+}
+.about-me h3 {
+    margin: 0 20px;
 }
 article h3, article h4 {
-    font-weight: bolt;
+    font-weight: bolder;
+}
+.experiencia h2 {
+    border-bottom: 2px solid #364A6D;
 }
