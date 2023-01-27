@@ -1,4 +1,10 @@
 
+/*-----------------Extructura--------------*/
+.div-contenedores {
+    display: flex;
+    width: 1200px;
+}
+
 /*-----------------Generales--------------*/
 ul {
     list-style-type: none;
@@ -10,6 +16,8 @@ article ul {
 /*-----------------Aside-----------------*/
 aside {
     background-color: #364A6D;
+    width: 30%;
+    margin-right: 1%;
 }
 aside *{
     color: white;
