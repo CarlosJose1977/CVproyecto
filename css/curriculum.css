@@ -19,15 +19,17 @@ h1, h2 {
 /*-----------------Aside-----------------*/
 aside {
     background-color: #364A6D;
-    width: 30%;
+    width: 350px;
     margin-right: 1%;
 }
 aside *{
     color: white;
 }
 aside h2{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     border-bottom: 2px solid white;
+    margin-top: 50px;
+    margin-left: 5px;
 }
 .perfil p {
     line-height: 2em;
@@ -37,6 +39,7 @@ aside h2{
 dl {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5px;
 }
 dt:last-of-type,
 dd:last-of-type {
@@ -46,7 +49,7 @@ dt {
     font-weight: bolder;
 }
 dt, dd {
-    line-height: 1.5em;
+    line-height: 2.5em;
     border-top: 1px solid white;
     flex-basis: 45%;
     margin: 0;
@@ -54,6 +57,7 @@ dt, dd {
 #Imagen-destacada img {
     border-radius: 50%;
     border-bottom-left-radius: 15px;
+    width: 300px;
 }
 
 /*-----------------Main-----------------*/
@@ -96,29 +100,30 @@ article h3, article h4 {
 .experiencia h2 {
     border-bottom: 2px solid #364A6D;
 }
+article {
+    padding: 0px 0;
+}
 
 /*-----------------Iconos-----------------*/
-.ws::before {
-    content: "\f232";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-}
-.me::before {
-    content: "\f39f";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-}
-.em::before {
-    content: "\f0e0";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-}
-.fk::before {
-    content: "\f09a";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-}
-.Contacto::before {
-    padding-right: 15px;
-}
 
+.fa-brands::before {
+    line-height: 2em;
+    font-size: 40px;
+    }
+.fa-brands:hover {
+    transform: scale(1.2);
+}    
+.fa-solid::before {
+    line-height: 2em;
+    font-size: 40px;
+}
+.fa-solid:hover {
+    transform: scale(1.2);
+}
+#wa,
+#fa,
+#em,
+#me  {
+    padding: 30px;
+    font-size: 28px;
+}
