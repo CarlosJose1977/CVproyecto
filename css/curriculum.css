@@ -30,11 +30,13 @@ aside h2{
     border-bottom: 2px solid white;
     margin-top: 50px;
     margin-left: 5px;
+    font-family: 'Bebas Neue', cursive;
 }
 .perfil p {
     line-height: 2em;
     padding: 8px;
     text-align: justify;
+    font-family: 'Mitr', sans-serif;
 }
 dl {
     display: flex;
@@ -47,6 +49,10 @@ dd:last-of-type {
 }
 dt {
     font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+dd {
+    font-family: Arial, Helvetica, sans-serif;
 }
 dt, dd {
     line-height: 2.5em;
@@ -68,6 +74,9 @@ main section h2{
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .hero {
     background-color: #7FB3D5;
     box-shadow: 5px 5px 5px 5px #AAB7B8 insert;
@@ -76,12 +85,14 @@ main section h2{
 }
 .hero h1 {
     letter-spacing: 15px;
+    font-family: 'Michroma', sans-serif;
 }
 .hero h2 {
     color: white;
     border-top: 2px solid white;
     text-transform: none;
     letter-spacing: 15px;
+    font-family: 'Michroma', sans-serif;
 }
 .about-me {
     background-color: #AAB7B8;
@@ -90,18 +101,40 @@ main section h2{
 .about-me h2 {
     background-color: #E5E8E8;
     border-bottom: 2px solid #364A6D;
+    font-family: 'Michroma', sans-serif;
 }
 .about-me h3 {
     margin: 0 20px;
+    font-family: 'Michroma', sans-serif;
 }
 article h3, article h4 {
     font-weight: bolder;
+    font-family: 'Michroma', sans-serif;
 }
+article li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .experiencia h2 {
     border-bottom: 2px solid #364A6D;
+    font-family: 'Michroma', sans-serif;
+    padding-top: 45px;
+}
+.experiencia h3 {
+    padding-top: 65px;
+    border-bottom: 1px solid #364A6D;
 }
 article {
     padding: 0px 0;
+}
+#tec {
+    font-family: 'Mitr', sans-serif;
+}
+#años {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#esp {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*-----------------Iconos-----------------*/
