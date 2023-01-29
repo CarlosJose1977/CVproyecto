@@ -6,6 +6,7 @@
 }
 
 /*-----------------Generales--------------*/
+
 ul {
     list-style-type: none;
 }
@@ -129,13 +130,14 @@ article {
 }
 #tec {
     font-family: 'Mitr', sans-serif;
+    padding: 5px;
 }
 #años {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #esp {
     font-family: Arial, Helvetica, sans-serif;
-}
+    }
 
 /*-----------------Iconos-----------------*/
 
@@ -159,4 +161,64 @@ article {
 #me  {
     padding: 30px;
     font-size: 28px;
+}
+
+/*-----------------Iconos-----------------*/
+button {
+    background-color: #364A6D;
+    border: 0;
+    box-shadow: 0 2px 4px black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin: 20px 0 0 0;
+}
+.modal-a {
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.5);
+   transition: all 500ms ease;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+}
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+.modala {
+    background-color: white;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #364A6D;
+    transition: all 500ms ease;
+}
+.modala header {
+    padding: 10px;
+    background: #364A6D;
+    color: white;
+}
+#cerrar {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+#Imagen-contacto-a img {
+    border-radius: 50%;
+    width: 120px;
+    position: absolute;
+    right: 35px;
+    top: 65px;
 }
