@@ -120,7 +120,6 @@ article h3, article h4 {
 article li {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .experiencia h2 {
     border-bottom: 2px solid #364A6D;
     font-family: 'Michroma', sans-serif;
@@ -164,8 +163,8 @@ article {
 #fa,
 #em,
 #me  {
-    padding: 30px;
-    font-size: 28px;
+    padding: 0 0 0 20px;
+    font-size: 18px;
 }
 
 /*-----------------Botones-----------------*/
@@ -181,7 +180,7 @@ button {
     margin: 20px 0 0 0;
 }
 .modal-container {
-    position: fixed;
+   position: fixed;
    top: 0;
    left: 0;
    background: rgba(0, 0, 0, 0.5);
@@ -193,6 +192,34 @@ button {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+.modal-container-b {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    pointer-events: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container-c {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    pointer-events: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .show {
     pointer-events: auto;
@@ -211,7 +238,43 @@ button {
     box-shadow: 0 2px 4px #364A6D;
     transition: all 500ms ease;
 }
+.modal-b {
+    background-color: white;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #364A6D;
+    transition: all 500ms ease;
+}
+.modal-c {
+    background-color: white;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #364A6D;
+    transition: all 500ms ease;
+}
 #close {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+#close_b {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+#close_c {
     position: absolute;
     bottom: 20px;
     right: 30px;
@@ -223,3 +286,18 @@ button {
     right: 35px;
     top: 65px;
 }
+#Imagen-contacto-b img {
+    border-radius: 50%;
+    width: 120px;
+    position: absolute;
+    right: 35px;
+    top: 95px;
+}
+#Imagen-contacto-c img {
+    border-radius: 50%;
+    width: 120px;
+    position: absolute;
+    right: 35px;
+    top: 65px;
+}
+

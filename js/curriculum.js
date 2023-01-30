@@ -9,15 +9,22 @@ document.getElementById('close').addEventListener('click', function () {
     document.getElementById("modal_container").classList.remove('show');
 });
 
+document.getElementById('open_b').addEventListener('click', function () {
+    console.log("capturamos el evento click open");
+    document.getElementById("modal_container_b").classList.add('show');
+});
 
-//const modal_container = document.getElementById('modal_container');
-//const close = document.getElementById('close');
+document.getElementById('close_b').addEventListener('click', function () {
+    console.log("capturamos el evento click close");
+    document.getElementById("modal_container_b").classList.remove('show');
+});
 
-//open.addEventlistener('click', () => {
-//   modal_container.classList.add('show');
-//});
+document.getElementById('open_c').addEventListener('click', function () {
+    console.log("capturamos el evento click open");
+    document.getElementById("modal_container_c").classList.add('show');
+});
 
-//close.addEventlistener('click', () => {
-//    modal_container.classList.remove('show');
-//});
-
+document.getElementById('close_c').addEventListener('click', function () {
+    console.log("capturamos el evento click close");
+    document.getElementById("modal_container_c").classList.remove('show');
+});
