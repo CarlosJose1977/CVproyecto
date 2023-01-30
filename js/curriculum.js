@@ -1,14 +1,14 @@
 
 
-const abrir = document.getElementById('abrir');
-const modal_a = document.getElementById('modal_a');
-const cerrar = document.getElementById('cerrrar');
+const open = document.getElementById('open');
+const modal_container = document.getElementById('modal_container');
+const close = document.getElementById('close');
 
 open.addEventlistener('click', () => {
-    modal_a.classList.add('show');
+    modal_container.classList.add('show');
 });
 
 close.addEventlistener('click', () => {
-    modal_a.classList.remove('show');
+    modal_container.classList.remove('show');
 });
 
